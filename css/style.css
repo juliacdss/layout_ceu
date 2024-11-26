@@ -1,0 +1,139 @@
+/*FORMATAÇÃO GERAL*/
+
+html {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*FORMATAÇÃO HEADER*/
+
+nav {
+    display: flex;
+    margin: 2vw 0 2vw 0;
+}
+#ceu {
+    margin: 0 2vw 0 2vw;
+    text-decoration: none;
+    color: #1090CB;
+    font-weight: bolder;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60vw 0 60vw;
+}
+nav ul li {
+    padding: 0 5px 0 5px;
+    margin: 0 1vw 0 1vw;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+#home a {
+    color: #1090CB;
+}
+nav ul li button {
+    background-color: #1090CB;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 4px 5px 4px;
+    border: none;
+    cursor: pointer;
+}
+
+/*FORMATAÇÃO SECTION MOBILE*/
+
+section.mobile {
+    background-color: hsl(198, 48%, 95%);
+}
+.mobile .experienced span {
+    color: #1090CB;
+}
+.mobile .experienced h1 {
+    font-size: xxx-large;
+    font-weight: bold;
+    padding: 0 0 25px 0;
+    margin: 5vw 4vw 0 4vw;
+}
+.mobile .experienced p {
+    color: #5C5C5C;
+    padding: 10px 0 25px 0;
+    margin: 0 4vw 0 4vw;
+}
+.mobile .experienced .button {
+    margin: 0 4vw 0 4vw;
+}
+.mobile .button button#contact {
+    font-size: medium;
+    background-color: #1090CB;
+    color: white;
+    border-radius: 8px;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    cursor: pointer;
+}
+.mobile .button button#view {
+    font-size: medium;
+    background-color: white;
+    color: #1090CB;
+    border-radius: 8px;
+    padding: 16px 40px 16px 40px;
+    border-color: #1090CB;
+    cursor: pointer;
+}
+.mobile .experienced {
+    display: flex;
+}
+
+/*FORMATAÇÃO SECTION ICONES*/
+
+.icones {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 0 0 0;
+    padding: 0 15px 0 15px;
+}
+.icones .texto {
+    padding: 0 12px 0 12px;
+}
+.icones p {
+    color: #5C5C5C;
+}
+.icones .website {
+    display: flex;
+}
+.icones .website h4 {
+    font-weight: bold;
+}
+.icones .seo {
+    display: flex;
+}
+.icones .seo h4 {
+    font-weight: bold;
+}
+.icones .vr {
+    display: flex;
+}
+.icones .vr h4 {
+    font-weight: bold;
+}
+.icones .coding {
+    display: flex;
+}
+.icones .coding h4 {
+    font-weight: bold;
+}
+
+/*FORMATAÇÃO SECTION LOREM*/
+
+.lorem .inicio h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    justify-content: center;
+    margin: 2vw 28vw 2vw 28vw;
+}
+.lorem .inicio p {
+    color: #5C5C5C;
+    margin: 0 15vw 0 15vw;
+}
