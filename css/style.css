@@ -64,7 +64,7 @@ section.mobile {
 .mobile .experienced .button {
     margin: 0 4vw 0 4vw;
 }
-.mobile .button button#contact {
+.mobile .button button.contact {
     font-size: medium;
     background-color: #1090CB;
     color: white;
@@ -73,7 +73,7 @@ section.mobile {
     border: none;
     cursor: pointer;
 }
-.mobile .button button#view {
+.mobile .button button.view {
     font-size: medium;
     background-color: white;
     color: #1090CB;
@@ -135,5 +135,98 @@ section.mobile {
 }
 .lorem .inicio p {
     color: #5C5C5C;
-    margin: 0 15vw 0 15vw;
+    margin: 0 40vw 0 40vw;
+    text-align: center;
+}
+.lorem .inicio p.p2 {
+    margin: 0.8vw 40vw 0 40vw;
+}
+
+/*CLASS CELULAR*/
+
+.celular {
+    display: flex;
+    justify-content: center;
+}
+.celular span {
+    color: #1090CB;
+}
+.celular h3 {
+    font-size: xx-large;
+    margin: 4vw 0 2vw 0;
+    font-weight: bold;
+}
+.celular p {
+    color: #5C5C5C;
+}
+
+/*CLASS TELAS*/
+
+.telas {
+    display: flex;
+    justify-content: center;
+}
+.telas span {
+    color: #1090CB;
+}
+.telas h3 {
+    font-size: xx-large;
+    margin: 4vw 0 2vw 0;
+    font-weight: bold;
+}
+.telas p {
+    color: #5C5C5C;
+}
+
+/*CLASS KODEX*/
+
+.kodex {
+    display: flex;
+    justify-content: center;
+}
+.kodex h3 {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0 0 1.5vw 0;
+    text-align: center;
+}
+.kodex .branco {
+    color: white;
+}
+.kodex .cinza {
+    background-color: #F4F4F4;
+    padding: 2vw 4vw 2vw 4vw;
+    margin: 0 2vw 0 2vw;
+    border-radius: 2rem;
+}
+.kodex .cinza p {
+    text-align: center;
+}
+.kodex .azul {
+    background-color: #1090CB;
+    padding: 2vw 4vw 2vw 4vw;
+    border-radius: 2rem;
+}
+.kodex .azul p {
+    text-align: center;
+}
+.kodex button.contact {
+    font-size: medium;
+    background-color: #1090CB;
+    color: white;
+    border-radius: 8px;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    cursor: pointer;
+    margin: 1vw 9vw 0 9vw;
+}
+.kodex button.view {
+    font-size: medium;
+    background-color: white;
+    color: #1090CB;
+    border-radius: 8px;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    cursor: pointer;
+    margin: 1vw 9vw 0 9vw;
 }
