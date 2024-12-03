@@ -9,15 +9,17 @@
 </head>
 <body>
     <header>
-        <nav class="topo">
+        <nav>
             <a href="index.html" id="ceu">CÉU</a>
-            <ul class="menu">
-                <li id="home"><a href="index.html">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><button>Contact us</button></li>
-            </ul>
+            <div>
+                <ul>
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><button>Contact us</button></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -116,6 +118,9 @@
             </div>
         </section>
         <section class="inscrever">
+            <h3>
+                Lorem Ipsum is simply dummy<br> text of the printing. 
+            </h3>
             <div class="form">
                 <form action="#">
                     <p>
@@ -123,32 +128,34 @@
                         <input type="email" id="email" placeholder="Enter your email">
                     </p>
                     <p>
-                        <input type="submit" name="subscribe" id="subscribe" value="Subscribe">
+                        <input type="submit" name="subscribe" id="subscribe" value="SUBSCRIBE">
                     </p>
                 </form>
             </div>
         </section>
     </main>
-    <footer>
-        <div class="rodape">
-            <div>
+    <footer> 
+        <div class="margin">
+            <div class="rodape">
+                <div class="logo">
                 <span>LOGO</span>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <p>@Lorem</p>
-            </div>
-            <div>
+                <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry. </p>
+                <p id="m">@Lorem</p>
+                </div>
+                <div>
                 <nav>
                     <ul>
-                        <li><a href="#"><span>About us</span></a></li>
-                        <li><a href="#">Lorem</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li class="about"><a href="#">About us</a></li>
+                            <li><a href="#">Lorem</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact us</a></li>
                     </ul>
                 </nav>
+                </div>
             </div>
         </div>
-        <div>
+        <div class="copyright">
             <p>Copyright ® 2021 Lorem All rights Rcerved</p>
         </div>
     </footer>

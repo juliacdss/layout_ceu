@@ -7,37 +7,40 @@ html {
 
 /*FORMATAÇÃO HEADER*/
 
-nav {
-    display: flex;
-    margin: 2vw 0 2vw 0;
-}
 #ceu {
-    margin: 0 2vw 0 2vw;
+    font-size: x-large;
+    color:#1090CB;
     text-decoration: none;
-    color: #1090CB;
-    font-weight: bolder;
+    font-weight: bold;
+    margin: 0 2vw 0 2vw;
 }
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 60vw 0 60vw;
-}
-nav ul li {
-    padding: 0 5px 0 5px;
-    margin: 0 1vw 0 1vw;
-}
-nav ul li a {
+header nav a {
     text-decoration: none;
     color: black;
 }
 #home a {
     color: #1090CB;
 }
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    margin: 1vw 0 0 0;
+    padding: 20px;
+}
 nav ul li button {
+    font-size: medium;
+    align-items: center;
     background-color: #1090CB;
     color: white;
     border-radius: 8px;
-    padding: 5px 4px 5px 4px;
+    padding: 10px 20px 10px 20px;
     border: none;
     cursor: pointer;
 }
@@ -46,6 +49,7 @@ nav ul li button {
 
 section.mobile {
     background-color: hsl(198, 48%, 95%);
+    border-top: #C4C4C4 solid 1px;
 }
 .mobile .experienced span {
     color: #1090CB;
@@ -54,15 +58,17 @@ section.mobile {
     font-size: xxx-large;
     font-weight: bold;
     padding: 0 0 25px 0;
-    margin: 5vw 4vw 0 4vw;
+    margin: 5vw 5vw 0 5vw;
+    line-height: 1.3;
 }
 .mobile .experienced p {
     color: #5C5C5C;
     padding: 10px 0 25px 0;
-    margin: 0 4vw 0 4vw;
+    margin: 0 5vw 0 5vw;
+    line-height: 1.6;
 }
 .mobile .experienced .button {
-    margin: 0 4vw 0 4vw;
+    margin: 0 5vw 0 5vw;
 }
 .mobile .button button.contact {
     font-size: medium;
@@ -85,6 +91,9 @@ section.mobile {
 .mobile .experienced {
     display: flex;
 }
+.mobile div.images img {
+    margin: 0 0 2vw 0;
+}
 
 /*FORMATAÇÃO SECTION ICONES*/
 
@@ -92,13 +101,15 @@ section.mobile {
     display: flex;
     justify-content: center;
     margin: 2vw 0 0 0;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 1.8vw 15px;
+    border-bottom: #D2D2D2 solid 2px;
 }
 .icones .texto {
     padding: 0 12px 0 12px;
 }
 .icones p {
     color: #5C5C5C;
+    line-height: 1.6;
 }
 .icones .website {
     display: flex;
@@ -106,11 +117,21 @@ section.mobile {
 .icones .website h4 {
     font-weight: bold;
 }
+.icones .website img {
+    background-color: #EFEAFF;
+    padding: 1vw 1vw 1vw 1vw;
+    border-radius: 10px;
+}
 .icones .seo {
     display: flex;
 }
 .icones .seo h4 {
     font-weight: bold;
+}
+.icones .seo img {
+    background-color: #ECFFDA;
+    padding: 1vw 1vw 1vw 1vw;
+    border-radius: 10px;
 }
 .icones .vr {
     display: flex;
@@ -118,11 +139,21 @@ section.mobile {
 .icones .vr h4 {
     font-weight: bold;
 }
+.icones .vr img {
+    background-color: #DAE6FF;
+    padding: 1vw 1vw 1vw 1vw;
+    border-radius: 10px;
+}
 .icones .coding {
     display: flex;
 }
 .icones .coding h4 {
     font-weight: bold;
+}
+.icones .coding img {
+    background-color: #FFE5DA;
+    padding: 1vw 1vw 1vw 1vw;
+    border-radius: 10px;
 }
 
 /*FORMATAÇÃO SECTION LOREM*/
@@ -155,9 +186,11 @@ section.mobile {
     font-size: xx-large;
     margin: 4vw 0 2vw 0;
     font-weight: bold;
+    line-height: 1.5;
 }
 .celular p {
     color: #5C5C5C;
+    line-height: 1.6;
 }
 
 /*CLASS TELAS*/
@@ -173,9 +206,11 @@ section.mobile {
     font-size: xx-large;
     margin: 4vw 0 2vw 0;
     font-weight: bold;
+    line-height: 1.5;
 }
 .telas p {
     color: #5C5C5C;
+    line-height: 1.6;
 }
 
 /*CLASS KODEX*/
@@ -201,6 +236,7 @@ section.mobile {
 }
 .kodex .cinza p {
     text-align: center;
+    line-height: 1.6;
 }
 .kodex .azul {
     background-color: #1090CB;
@@ -209,6 +245,7 @@ section.mobile {
 }
 .kodex .azul p {
     text-align: center;
+    line-height: 1.6;
 }
 .kodex button.contact {
     font-size: medium;
@@ -229,4 +266,92 @@ section.mobile {
     border: none;
     cursor: pointer;
     margin: 1vw 9vw 0 9vw;
+}
+
+/*CLASS INSCREVER*/
+
+.inscrever {
+    text-align: center;
+    background-color: #E8F4FA;
+    margin: 4vw 0 0 0;
+}
+.inscrever h3 {
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+    padding: 4vw 0 2vw 0;
+}
+.inscrever div.form form {
+    display: flex;
+    margin: 0 31vw 0 31vw;
+    padding: 0 2vw 2vw 2vw;
+}
+.inscrever form p #email {
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    padding: 1vw 10vw 1vw 1.5vw;
+    margin: 0 1vw 4vw 0;
+}
+.inscrever form p #subscribe {
+    font-size: small;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 30px 20px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer div.margin {
+    margin: 3vw 3vw 0 3vw;
+}
+footer div.rodape {
+    display: flex;
+    justify-content: space-between;
+}
+footer div.rodape p {
+    color: #515151;
+    padding: 1vw 0 0 0;
+}
+footer div.rodape p#m {
+    padding: 1vw 0 1vw 0;
+}
+footer div.logo span {
+    color: #00329B;
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer nav {
+    padding: 0 0 2vw 0;
+}
+footer nav ul li span {
+    font-weight: bold;
+    color: black;
+}
+footer nav ul li.about {
+    padding: 0 0 10px 0;
+}
+footer nav ul li.about a {
+    color: black;
+    font-weight: bold;
+}
+footer nav ul li a {
+    color: #515151;
+}
+footer nav ul li{
+    padding: 8px 0 0 0;
+}
+footer div.copyright {
+    font-size: smaller;
+    text-align: center;
+    color: #686868;
+    border-top: #D2D2D2 solid 2px;
+    padding: 1vw 0 2vw 0;
 }
